@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - CSS Week 2</title>
+    <!-- Bootstrap Local Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Feedback Form</h1>
+    </header>
+    
+    <div class="container mt-4">
+        <section class="mb-4">
+            <h2>Feedback Form</h2>
+            <form class="bg-white p-4 shadow-sm rounded">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone:</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number">
+                </div>
+                <div class="mb-3">
+                    <label for="rating" class="form-label">Rating:</label>
+                    <input type="number" id="rating" name="rating" class="form-control" placeholder="Enter your rating">
+                </div>
+                <div class="mb-3">
+                    <label for="question" class="form-label">Any Questions regarding product or service:</label>
+                    <textarea name="question" id="question" class="form-control" rows="4"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Additional comments:</label>
+                    <textarea name="comments" id="comments" class="form-control" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
